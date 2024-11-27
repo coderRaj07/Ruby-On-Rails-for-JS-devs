@@ -291,9 +291,7 @@
   Faraday.get(url) do |req|
     req.headers["Authorization"] = "Bearer TOKEN"
   end
-  ``
-
-`
+  ```
 
 ---
 
