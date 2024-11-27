@@ -138,8 +138,6 @@ updated_user = user.merge({ age: 31 })
 puts updated_user # {:name=>"Rajendra", :age=>31}
 ```
 
----
-
 #### **4.2. Spread Operator for Arrays (JavaScript) vs Array Concatenation (Ruby on Rails)**
 
 **JavaScript: Spread Operator**  
@@ -181,8 +179,6 @@ puts combined_numbers # [1, 2, 3, 4, 5]
 updated_numbers = numbers + [4]
 puts updated_numbers # [1, 2, 3, 4]
 ```
-
----
 
 #### **4.3. Key Differences Between JavaScript and Ruby on Rails**
 
