@@ -139,6 +139,30 @@
     puts result # [2, 3]
     ```
 
+- **Finding an Element:**
+  - **JavaScript:**  
+    ```javascript
+    let result = [1, 2, 3].find(x => x > 1);  
+    console.log(result); // 2
+    ```
+  - **Ruby:**  
+    ```ruby
+    result = [1, 2, 3].find { |x| x > 1 }  
+    puts result # 2
+    ```
+
+- **Reducing Values:**
+  - **JavaScript:**  
+    ```javascript
+    let sum = [1, 2, 3].reduce((acc, x) => acc + x, 0);  
+    console.log(sum); // 6
+    ```
+  - **Ruby:**  
+    ```ruby
+    sum = [1, 2, 3].reduce(0) { |acc, x| acc + x }  
+    puts sum # 6
+    ```
+    
 - **Sorting (Ascending and Descending):**  
   - **JavaScript Ascending:**  
     ```javascript
